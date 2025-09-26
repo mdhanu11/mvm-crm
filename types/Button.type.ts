@@ -1,0 +1,1 @@
+export type ButtonVariantTypes='primary' | 'secondary' | 'outline' | 'danger' | 'black'
