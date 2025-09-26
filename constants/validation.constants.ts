@@ -1,0 +1,1 @@
+export const strictEmailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;

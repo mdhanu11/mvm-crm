@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+button, a{
+  cursor: pointer;
+}
+.bg-primary {
+  background: #130F40;
+}
+
+.text-primary {
+  color: #130F40;
+
+}
+
+.light-background{
+  background:#F6F5FA
+}
+.rounded-default {
+  @apply rounded-lg;
+}
+
+
+
+.triangle-left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -40px; /* Adjust based on triangle size */
+  width: 0;
+  height: 0;
+  border-top: 100vh solid transparent;
+  border-right: 40px solid white; /* or any color */
+}
